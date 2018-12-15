@@ -68,7 +68,7 @@ function init() {
     var axesHelper = new THREE.AxesHelper(100);
     scene.add(axesHelper);
     // BACKGROUND
-    var texture = THREE.ImageUtils.loadTexture('./models/LogoBM_english_1.jpg');
+    var texture = THREE.ImageUtils.loadTexture('./images/LogoBM_english_1.jpg');
     var repeatX, repeatY;
     texture.wrapS = THREE.ClampToEdgeWrapping;
     texture.wrapT = THREE.RepeatWrapping;
