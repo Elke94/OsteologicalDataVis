@@ -19,7 +19,7 @@
 *.rar
 *.tar
 *.zip
-
+*.stl
 # Logs and databases #
 ######################
 *.log
