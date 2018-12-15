@@ -1,0 +1,5 @@
+In den Ordner ./website/ müssen noch die 2 ordner "js" und "models" aus den "examples" rein.
+
+Dann kannst du das Projekt einfach über den Befehl "node server.js" starten.
+
+("npm install" vorher nicht vergessen!)

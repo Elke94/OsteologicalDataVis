@@ -39,5 +39,8 @@ Thumbs.db
 # textures
 website/textures/
 
+#pictures and models
+website/models/
+
 # node_moduls
 node_modules/

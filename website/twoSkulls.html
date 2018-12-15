@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="#">
+
+    <title>three.js webgl - loaders - vtk loader</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+
+<body>  
+    <div class="containerThreeJS" id="container"></div>
+    Grid: <input type="checkbox"  onclick="activateGridHelper()" >
+    <div style="font-size:16px;margin-left: 10px">
+          <input type="button"  value="Return"  onclick="document.location='main.html'">  
+          </div>
+
+    <script src="./build/three.js"></script>
+ 
+    <script src="./js/controls/OrbitControls.js"></script>
+    <script src="./js/controls/TrackballControls.js"></script>
+    <script src="js/controls/DragControls.js"></script>
+
+    <script src="./js/Volume.js"></script>
+    <script src="./js/VolumeSlice.js"></script>
+    <script src="./js/loaders/NRRDLoader.js"></script>
+    <script src="./js/loaders/VTKLoader.js"></script>
+    <script src="./js/loaders/STLLoader.js"></script>
+
+    <script src="./js/Detector.js"></script>
+    <script src="./js/libs/stats.min.js"></script>
+    <script src="./js/libs/gunzip.min.js"></script>
+    <script src="./js/libs/dat.gui.min.js"></script>
+
+
+    <script src="./js/ShaderToon.js"></script>
+
+    <script src="./js/shaders/CopyShader.js"></script>
+    <script src="./js/shaders/FXAAShader.js"></script>
+    <script src="./js/shaders/HorizontalTiltShiftShader.js"></script>
+    <script src="./js/shaders/VerticalTiltShiftShader.js"></script>
+    <script src="./js/postprocessing/EffectComposer.js"></script>
+    <script src="./js/postprocessing/RenderPass.js"></script>
+    <script src="./js/postprocessing/BloomPass.js"></script>
+    <script src="./js/postprocessing/ShaderPass.js"></script>
+    <script src="./js/postprocessing/MaskPass.js"></script>
+    <script src="./js/postprocessing/SavePass.js"></script>
+
+
+    <script src="./js/Detector.js"></script>
+    <script src="./js/libs/stats.min.js"></script>
+    <script src="./js/libs/dat.gui.min.js"></script>
+
+
+    <script src="build/jquery.min.js"></script>
+
+    <script src="./src/twoSkulls.js"></script>
+
+
+</body>
+
+</html>
